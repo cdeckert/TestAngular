@@ -1,0 +1,10 @@
+<p>This is the debug view.</p>
+
+<input ng-model="sessionId"/>
+<button ng-click="setSession(sessionId)">save</button>
+
+
+<ul>
+	<li ng-repeat="a in accounts" ng-show="true"><a href="/{{a.Id}}">{{a.Name}}</a></li>
+
+</ul>
